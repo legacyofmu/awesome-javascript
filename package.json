@@ -1,11 +1,19 @@
 {
   "name": "awesome-javascript",
   "version": "1.0.0",
+  "type": "module",
+  "module": "commonjs",
   "main": "index.js",
   "repository": "https://github.com/legacyofmu/awesome-javascript",
   "author": "legacyofmu <legacyofmu1@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
   "dependencies": {
     "node-fetch": "^3.3.0"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1"
   }
 }
