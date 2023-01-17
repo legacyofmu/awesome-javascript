@@ -1,0 +1,36 @@
+Arguments: 
+  /usr/bin/node /home/dhpark/.node/corepack/yarn/1.22.15/bin/yarn.js init
+
+PATH: 
+  /home/dhpark/.bun/bin:/home/dhpark/.local/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/dhpark/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Vim/vim90:/mnt/c/Python310/Scripts/:/mnt/c/Python310/:/mnt/c/Users/legac/AppData/Local/Programs/Python/Python38:/mnt/c/Users/legac/AppData/Local/Programs/Python/Python38/Scripts:/mnt/c/Program Files/CollabNet/Subversion Client:/mnt/c/Program Files/Microsoft MPI/Bin/:/mnt/c/Program Files/Java/jdk1.8.0_141/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/gnuwin32/bin:/mnt/c/MinGW/msys/1.0/bin:/mnt/c/mingw64/bin:/mnt/c/MinGW/bin:/mnt/c/Program Files/TortoiseSVN/bin:/mnt/c/ProgramData/Anaconda3:/mnt/c/ProgramData/Anaconda3/Scripts:/mnt/c/Windows/SysWOW64:/mnt/c/Program Files (x86)/GtkSharp/2.12/bin:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Users/legac/.cargo/bin:/mnt/c/Program Files (x86)/scala/bin:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/10/Debuggers/x64:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files/Mono/bin:/mnt/d/svn/llvm/build/Release/bin:/mnt/c/flutter/bin:/mnt/c/Program Files/dotnet/:/mnt/d/program/cmder:/mnt/d/program/cmder/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/gnuplot/bin:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Users/legac/AppData/Local/Programs/Julia/Julia-1.4.2/bin:/mnt/c/Go/bin:/mnt/c/Program Files (x86)/dotnet/:/mnt/c/Program Files (x86)/teraterm:/mnt/c/msys64:/mnt/c/msys64/usr/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/program/love-11.4-win64:/mnt/c/Users/legac/AppData/Local/Android/Sdk/tools:/mnt/c/Users/legac/AppData/Local/Android/Sdk/platform-tools:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Calibre2/:/mnt/c/Program Files/CMake/bin:/mnt/c/Ruby26-x64/bin:/mnt/c/Users/legac/.cargo/bin:/mnt/c/Users/legac/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/Bandizip/:/mnt/c/Users/legac/.dotnet/tools:/mnt/c/Program Files/Mercurial/:/mnt/c/Users/legac/go/bin:/mnt/c/Program Files/Docker Toolbox:/mnt/c/Users/legac/AppData/Roaming/npm:/mnt/c/tools/neovim/nvim-win64/bin:/mnt/c/Users/legac/AppData/Local/Markdown Monster
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  18.8.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/home/dhpark/.node/corepack/yarn/1.22.15/lib/cli.js:137145:13)
+      at Interface.emit (node:events:513:28)
+      at [_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1124:18)
+      at ReadStream.onkeypress (node:internal/readline/interface:273:20)
+      at ReadStream.emit (node:events:513:28)
+      at emitKeys (node:internal/readline/utils:357:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
+      at ReadStream.emit (node:events:513:28)
+      at addChunk (node:internal/streams/readable:324:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
